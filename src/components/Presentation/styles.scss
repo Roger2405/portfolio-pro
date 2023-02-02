@@ -1,0 +1,31 @@
+.presentation {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    p {
+
+        &:first-child {
+            color: var(--background);
+            text-shadow: 0 0 8px #fff;
+            // text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff,
+            //     1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+        }
+
+        &:last-child {
+            color: var(--green);
+        }
+    }
+
+    .arrow-button {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        background-color: unset;
+        border: none;
+
+    }
+}

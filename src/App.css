@@ -1,0 +1,29 @@
+:root {
+    --background: #2e2e2e;
+    --white: #ffffff;
+    --green: #45C567;
+    --gray-blue: #38575E;
+}
+
+* {
+    font-family: 'Kufam', sans-serif;
+    font-family: 'Jost', sans-serif;
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--background);
+}
+
+main>*,
+header>* {
+    padding: .5rem;
+}
+
+header {
+    background-image: radial-gradient(var(--green), var(--gray-blue));
+}
+
