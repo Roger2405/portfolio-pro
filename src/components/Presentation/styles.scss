@@ -4,25 +4,48 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-image: radial-gradient(var(--green), var(--gray-blue));
 
-    p {
+    .container {
+        max-width: 1000px;
 
-        &:first-child {
+        @media screen and (min-width: 1440px) {}
+
+        p:first-child {
             color: var(--background);
-            text-shadow: 0 0 8px #fff;
-            // text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff,
-            //     1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+            // text-shadow: 0 0 8px #fff;
+            text-shadow: .5rem 0 #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
         }
 
-        &:last-child {
-            color: var(--green);
+
+        .presentation__name {
+            font-size: 4rem;
+            text-align: center;
+            line-height: 4rem;
+            color: var(--white)
         }
+
+        .presentation__office {
+            font-size: 2rem;
+            font-weight: 200;
+            text-align: right;
+            color: white
+        }
+
+        .presentation__phrase {
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            text-align: right;
+            color: var(--gray);
+        }
+
     }
 
     .arrow-button {
         position: absolute;
         bottom: 0;
         right: 0;
+
 
         background-color: unset;
         border: none;

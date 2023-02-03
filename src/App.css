@@ -2,13 +2,18 @@
     --background: #2e2e2e;
     --white: #ffffff;
     --green: #45C567;
+    --soft-green: rgba(69, 197, 103, .5);
     --gray-blue: #38575E;
+    --gray: #5F5F5F;
+    --soft-white: rgb(255, 255, 255, 0.05);
+    --bg-smooth: rgba(0, 0, 0, 0.75)
 }
 
 * {
     font-family: 'Kufam', sans-serif;
-    font-family: 'Jost', sans-serif;
+    /* font-family: 'Jost', sans-serif; */
 
+    scroll-behavior: smooth;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -18,12 +23,15 @@ body {
     background-color: var(--background);
 }
 
-main>*,
+section,
 header>* {
     padding: .5rem;
 }
 
-header {
-    background-image: radial-gradient(var(--green), var(--gray-blue));
-}
+@media screen and (min-width: 1440px) {
 
+    section,
+    header>* {
+        padding: 0 6rem;
+    }
+}

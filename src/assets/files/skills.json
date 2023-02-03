@@ -1,0 +1,50 @@
+[
+    {
+        "name": "HTML5",
+        "startsAt": "2022-03",
+        "color": "#FF5722",
+        "level": "intermediário"
+    },
+    {
+        "name": "CSS3",
+        "startsAt": "2022-03",
+        "color": "#2299f8",
+        "level": "intermediário"
+    },
+    {
+        "name": "JavaScript",
+        "startsAt": "2022-04",
+        "color": "#F7DF1E",
+        "level": "intermediário"
+    },
+    {
+        "name": "TypeScript",
+        "startsAt": "2022-08",
+        "color": "#3178c6",
+        "level": "intermediário"
+    },
+    {
+        "name": "ReactJS",
+        "startsAt": "2022-08",
+        "color": "#FFF",
+        "level": "intermediário"
+    },
+    {
+        "name": "MySQL",
+        "startsAt": "2022-10",
+        "color": "#CCC",
+        "level": "intermediário"
+    },
+    {
+        "name": "NodeJS",
+        "startsAt": "2022-10",
+        "color": "#8fc84e",
+        "level": "básico"
+    },
+    {
+        "name": "React Native",
+        "startsAt": "2023-01",
+        "color": "#222222",
+        "level": "básico"
+    }
+]
