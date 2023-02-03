@@ -1,7 +1,43 @@
-.projects__header {
+.div-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
 
-    @media screen and (min-width: 1440px) {
+    margin-bottom: 4rem;
+
+    .projects__header {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: column;
+        // flex-direction: row;
+
+        @media screen and (min-width: 1024px) {
+            flex-direction: row-reverse;
+        }
     }
+
+    .projects {
+
+
+
+        @media screen and (min-width: 481px) {
+            display: grid;
+            grid-template-rows: repeat(3, auto);
+            grid-template-columns: repeat(2, calc(100% / 2));
+            // gap: 1rem;
+            // grid-template-rows: 1fr 1fr 1fr;
+
+            // display: flex;
+            // flex-wrap: wrap;
+            // justify-content: space-between;
+            // height: 200px;
+            // gap: 4%;
+        }
+
+        @media screen and (min-width: 1024px) {
+            grid-template-columns: repeat(3, calc(100% / 3));
+
+        }
+    }
+
 }

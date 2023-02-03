@@ -6,6 +6,7 @@
     padding: .5rem;
 
 
+
     &__icon {
         aspect-ratio: 1/1;
         object-fit: contain;
@@ -17,14 +18,28 @@
         color: var(--white);
         text-shadow: 1px 0 var(--background), -1px -1px var(--background), 1px -1px var(--background), -1px 1px var(--background);
 
-        &--name {}
+        &--name {
+            font-size: 1.25em;
+        }
 
         &--expTime {
             opacity: .75;
+            font-size: .75;
+            // font-size: 1.125em;
         }
 
         &--level {
-            font-size: .75em;
+            font-size: 1em;
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .skill {
+        height: 8rem;
+
+        &__icon {
+            width: 5rem;
         }
     }
 }

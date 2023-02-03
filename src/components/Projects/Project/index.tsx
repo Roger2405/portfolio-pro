@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { ProjectProps } from '../../../@types/project';
 import { skillIcons } from '../../commons/SkillsIcons';
-import LinkButton from '../../commons/SkillsIcons/LinkButton';
+import LinkButton from '../../commons/LinkButton';
 import './styles.scss';
 
 interface Props {
@@ -14,14 +14,14 @@ export default function Project({ project, projectSelected, handleSelectProject 
 
     return (
         <div className={`project ${projectSelected ? 'active' : ''}`} onClick={() => handleSelectProject(project)}>
-            <img className='project__screenshot' width={'100%'} src={project.imageSrc} />
+            <img className='project__screenshot' src={project.imageSrc} />
             <div className='project__details'>
                 <p className='project__details--name'>{project.name}</p>
                 <div className='project__details--skills'>
                     {
                         project.skills.map(
                             skill => {
-                                return (<img src={skillIcons.get(skill)} />)
+                                return (<img key={skill} src={skillIcons.get(skill)} />)
                             })
 
                     }

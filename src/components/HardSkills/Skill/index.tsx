@@ -55,8 +55,8 @@ export default function Skill({ skill }: Props) {
         return string;
     }
     return (
-        <div className="skill" style={{ backgroundColor: skill.color }}>
-            <img className="skill__icon" src={skillIcons.get(skill.name)} />
+        <div className="skill">
+                <img className="skill__icon" src={skillIcons.get(skill.name)} />
             <div className="skill__info">
                 <h3 className="skill__info--name">{skill.name}</h3>
                 <p className="skill__info--expTime">Tempo de experiência: {experienceTime}</p>

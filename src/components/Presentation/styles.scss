@@ -6,10 +6,13 @@
     flex-direction: column;
     background-image: radial-gradient(var(--green), var(--gray-blue));
 
+    @media screen and (min-width: 1440px) {
+        font-size: 1.25rem;
+    }
+
     .container {
         max-width: 1000px;
 
-        @media screen and (min-width: 1440px) {}
 
         p:first-child {
             color: var(--background);
@@ -19,22 +22,22 @@
 
 
         .presentation__name {
-            font-size: 4rem;
+            font-size: 4em;
             text-align: center;
-            line-height: 4rem;
+            // line-height: 4em;
             color: var(--white)
         }
 
         .presentation__office {
-            font-size: 2rem;
+            font-size: 2em;
             font-weight: 200;
             text-align: right;
             color: white
         }
 
         .presentation__phrase {
-            font-size: 1.5rem;
-            line-height: 1.5rem;
+            font-size: 1.5em;
+            line-height: 1.5em;
             text-align: right;
             color: var(--gray);
         }

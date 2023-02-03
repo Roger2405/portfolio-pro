@@ -1,5 +1,5 @@
 :root {
-    --background: #2e2e2e;
+    --background: #202020;
     --white: #ffffff;
     --green: #45C567;
     --soft-green: rgba(69, 197, 103, .5);
@@ -10,8 +10,8 @@
 }
 
 * {
-    font-family: 'Kufam', sans-serif;
-    /* font-family: 'Jost', sans-serif; */
+    /* font-family: 'Kufam', sans-serif; */
+    font-family: 'Jost', sans-serif;
 
     scroll-behavior: smooth;
     box-sizing: border-box;
@@ -25,13 +25,29 @@ body {
 
 section,
 header>* {
-    padding: .5rem;
+    padding: 0 .5rem !important;
+}
+
+@media screen and (min-width: 481px) {
+    section,
+    header>* {
+        padding: 0 2rem !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    section,
+    header>* {
+        padding: 0 4rem !important;
+    }
+
 }
 
 @media screen and (min-width: 1440px) {
 
     section,
     header>* {
-        padding: 0 6rem;
+        padding: 0 7rem !important;
     }
 }

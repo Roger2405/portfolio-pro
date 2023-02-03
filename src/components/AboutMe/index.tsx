@@ -45,9 +45,6 @@ export default function AboutMe() {
 
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. A assumenda autem impedit quas aliquam voluptatibus numquam quam, sequi harum et quod eos veniam praesentium velit nam reiciendis quaerat dolores explicabo!
                 </p>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur hic aliquid illum incidunt totam culpa nesciunt possimus obcaecati enim, perferendis corporis ipsam eius quia quo repudiandae dolores excepturi alias mollitia?
-                </p>
             </div>
         </section>
     )

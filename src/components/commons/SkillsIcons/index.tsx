@@ -6,6 +6,7 @@ import ReactJSIcon from '../../../assets/icons/react.png';
 import NodeJSIcon from '../../../assets/icons/node.png';
 import RNIcon from '../../../assets/icons/rn.png';
 import MySQLIcon from '../../../assets/icons/mysql.png';
+
 import { SkillsNameProps } from '../../../@types/skill';
 
 const values: [SkillsNameProps, string][] =

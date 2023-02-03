@@ -1,7 +1,7 @@
-import SectionHeader from "../SectionHeader";
+import SectionHeader from "../commons/SectionHeader";
 import MainProject from "./MainProject";
 
-import { projects } from "../../assets/files/projects";
+import { projects } from "../../assets/data/projects";
 import Project from "./Project";
 import { useState } from "react";
 import { ProjectProps } from "../../@types/project";
@@ -14,28 +14,27 @@ export default function Projects() {
         if (projectSelected == project.name) {
             setProjectSelected('');
         }
-        else {
+        else if (window.innerWidth < 1440) {
             setProjectSelected(project.name);
         }
     }
 
     return (
-        <>
-            <div className="projects__header">
-                <SectionHeader title={{ small: '+ recentes', strong: 'projetos' }} reverseDirection />
+        <div id="projects" className="div-sections">
+            <section className="projects__header">
+                <SectionHeader headerStyle="right" title={{ small: '+ recentes', strong: 'projetos' }} reverseDirection />
                 <MainProject />
-            </div>
-            <section about="outros projetos">
+            </section>
+            <section className="projects" about="mais projetos">
                 {
                     projects.map(project => {
                         return (
-                            <Project projectSelected={projectSelected === project.name} key={project.name} handleSelectProject={handleSelectProject} project={project} />
-
+                            <Project key={project.name} projectSelected={projectSelected === project.name} handleSelectProject={handleSelectProject} project={project} />
                         )
                     })
                 }
             </section>
-        </>
+        </div>
 
     )
 }

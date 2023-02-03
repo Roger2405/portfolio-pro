@@ -1,0 +1,110 @@
+.education-section {
+    display: flex;
+    flex-direction: column;
+
+    background-image: linear-gradient(var(--background), var(--soft-white));
+
+    font-size: .75rem;
+    min-height: 100vh;
+
+    margin-bottom: 2rem;
+
+    @media screen and (min-width: 1024px) {
+        background-image: none;
+        flex-direction: row-reverse;
+
+        font-size: 1rem;
+
+    }
+
+    h3 {
+        color: var(--white);
+        text-transform: uppercase;
+        font-size: 1.5em;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        gap: 2em;
+        // overflow-x: auto;
+        height: 100%;
+
+        padding-bottom: 2rem;
+
+
+        @media screen and (min-width: 1024px) {
+            background-image: linear-gradient(-90deg, var(--soft-white), var(--background));
+
+            padding-right: 2em;
+            align-items: flex-end;
+            text-align: end;
+            justify-content: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: .5em;
+
+            padding: 0 .5em;
+
+            @media screen and (min-width: 1024px) {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: end;
+            }
+
+            &__item {
+                background-color: var(--soft-white);
+                // border: 1px solid var(--white);
+                display: flex;
+                flex-direction: column;
+
+                // &:last-child {
+                //     margin-right: auto;
+                // }
+
+                border-bottom: 1px solid var(--soft-white);
+
+                @media screen and (min-width: 1024px) {
+                    border-right: 1px solid var(--soft-white);
+                    border-bottom: none;
+
+                    // margin-bottom: 1rem;
+                }
+
+                padding: .5em .75em;
+
+                &--name {
+                    font-size: 1.25em;
+                    line-height: 1em;
+                    font-weight: 700;
+                    color: var(--white);
+                    opacity: .75;
+                }
+
+                &--institution {
+                    color: var(--gray-blue);
+                }
+
+                &--duration {
+                    line-height: 1em;
+                    color: var(--gray);
+                }
+
+                &--certificate {
+                    padding-top: .5em;
+                    width: 200px;
+
+                    @media screen and (min-width: 1024px) {
+                        margin-left: auto;
+                        margin-top: auto;
+
+                    }
+                }
+            }
+        }
+    }
+}

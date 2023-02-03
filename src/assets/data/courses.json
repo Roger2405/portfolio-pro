@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Formação INICIANTE EM PROGRAMAÇÃO",
+        "institution": "Alura",
+        "workload": 79,
+        "certificateUrl": "https://cursos.alura.com.br/degree/certificate/658bd802-d6da-4e51-aa64-4f8d5d7a8ec9"
+    },
+    {
+        "name": "Formação C# E ORIENTAÇÃO A OBJETOS",
+        "institution": "Alura",
+        "workload": 72,
+        "certificateUrl": "https://cursos.alura.com.br/degree/certificate/d1c97ffc-a1cb-4134-b206-82b2d9bee1bd"
+    },
+    {
+        "name": "Formação JOGOS COM UNITY",
+        "institution": "Alura",
+        "workload": 90,
+        "certificateUrl": "https://cursos.alura.com.br/degree/certificate/0bf1de74-2009-43a0-945a-7ba796cc881b"
+    },
+    {
+        "name": "Formação HTML E CSS",
+        "institution": "Alura",
+        "workload": 61,
+        "certificateUrl": "https://cursos.alura.com.br/degree/certificate/5fb1a6ba-bfe5-4f72-bdaa-048b55a4294a"
+    },
+    {
+        "name": "Formação FRONT-END",
+        "institution": "Alura",
+        "workload": 150,
+        "certificateUrl": "https://cursos.alura.com.br/degree/certificate/fb65d857-b8b6-46f3-8b7b-139d0310245e"
+    },
+    {
+        "name": "Formação REACT COM TYPESCRIPT",
+        "institution": "Alura",
+        "workload": 75,
+        "certificateUrl": "https://cursos.alura.com.br/degree/certificate/9b55b0ff-135c-4930-a6ff-939de8d9da57"
+    }
+]
