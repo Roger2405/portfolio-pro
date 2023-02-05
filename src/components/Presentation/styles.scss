@@ -7,6 +7,8 @@
     background-image: radial-gradient(var(--green), var(--gray-blue));
 
 
+    scroll-snap-align: start;
+
     @media screen and (min-width: 1440px) {
         font-size: 1.25rem;
     }

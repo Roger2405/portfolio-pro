@@ -6,6 +6,7 @@
     width: 100%;
 
     margin-bottom: 4rem;
+    scroll-snap-align: start;
 
     .projects__header {
         display: flex;
@@ -18,7 +19,6 @@
     }
 
     .projects {
-        scroll-snap-align: none;
 
 
         @media screen and (min-width: 481px) {

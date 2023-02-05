@@ -28,11 +28,11 @@ export default function AboutMe() {
                 <div className='social'>
                     <div className='link'>
                         <LinkedinLogo size={40} />
-                        <a href="">Linkedin</a>
+                        <a href="https://www.linkedin.com/in/roger-romaniczen/" target="_blank">Linkedin</a>
                     </div>
                     <div className='link'>
                         <GithubLogo size={40} />
-                        <a href="">GitHub</a>
+                        <a href="https://github.com/Roger2405" target="_blank">GitHub</a>
                     </div>
                 </div>
             </div>
