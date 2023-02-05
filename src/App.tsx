@@ -14,7 +14,7 @@ function App() {
       <header>
         <Nav />
       </header>
-      <main>
+      <main dir='ltr'>
         <Presentation />
         <AboutMe />
         <Education />

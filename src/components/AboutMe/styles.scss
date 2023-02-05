@@ -4,7 +4,9 @@
     min-height: 100vh;
     align-items: center;
     flex-direction: column;
-    padding: 2rem 0;
+    // padding: 2rem 0;
+
+    justify-content: center;
 
     @media screen and (min-width: 768px) {
         flex-direction: row-reverse;

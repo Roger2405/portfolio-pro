@@ -38,12 +38,10 @@ export default function AboutMe() {
             </div>
             <div className='text'>
                 <p>
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, itaque nam dicta voluptas quae possimus ipsa dolor enim repellat quo reprehenderit adipisci tenetur quas aliquid! Molestiae tempora neque vel quasi.
+                    Conheci a programação no final de 2020 e iniciei meus estudos com o desenvolvimento de jogos com a Unity. No início de 2022, iniciei meus estudos no desenvolvimento web com HTML5 e CSS3 e posteriormente com JavaScript, TypeScript e React.
                 </p>
                 <p>
-
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. A assumenda autem impedit quas aliquam voluptatibus numquam quam, sequi harum et quod eos veniam praesentium velit nam reiciendis quaerat dolores explicabo!
+                    Sou muito adaptável ao ambiente e tenho facilidade em adquirir novos conhecimentos. Gosto de resolver problemas e enfrentar desafios que me proporcionem novos conhecimentos.
                 </p>
             </div>
         </section>
