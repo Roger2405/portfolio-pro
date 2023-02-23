@@ -38,6 +38,7 @@
             border-style: solid;
             border-color: var(--white);
             margin-bottom: .5rem;
+            gap: 1rem;
 
             h3 {
                 font-size: 2rem;
@@ -94,6 +95,8 @@
 
         .div-link {
             margin: 2rem auto;
+            display: flex;
+            flex-direction: column;
         }
     }
 }
