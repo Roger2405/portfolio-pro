@@ -68,7 +68,7 @@ export default function MainProject() {
                 <div className='div-link'>
 
                     <LinkButton contoured href='https://play.google.com/store/apps/details?id=com.ajudame.mobile' title='Ver na Play Store' />
-                    {/* <LinkButton title='Ver repositório no GitHub' href='#' /> */}
+                    <LinkButton title='Ver repositório no GitHub' href='https://github.com/Roger2405/ajudame-mobile' />
                 </div>
             </div>
 
