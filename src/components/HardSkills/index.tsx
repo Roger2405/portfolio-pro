@@ -1,5 +1,5 @@
 import './styles.scss';
-import skillsJson from '../../assets/data/skills.json'
+import skillsJson from '../../data/skills.json'
 import { SkillProps } from '../../@types/skill';
 import Skill from './Skill';
 import SectionHeader from '../commons/SectionHeader';

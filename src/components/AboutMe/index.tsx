@@ -1,4 +1,5 @@
 import { GithubLogo, LinkedinLogo } from 'phosphor-react';
+import ProfilePhoto from '../../assets/foto_perfil.jpg';
 import './styles.scss';
 
 export default function AboutMe() {
@@ -7,7 +8,7 @@ export default function AboutMe() {
         <section id='aboutMe' className='aboutMe'>
             <div className='main'>
                 <div className='info'>
-                    <img />
+                    <img src={ProfilePhoto} className='photo' />
                     <div className='tag'>
                         <p>Idade</p>
                         <p>19</p>
@@ -26,14 +27,18 @@ export default function AboutMe() {
                     </div>
                 </div>
                 <div className='social'>
-                    <div className='link'>
+                    <a className='link' href="https://www.linkedin.com/in/roger-romaniczen/" target="_blank">
                         <LinkedinLogo size={40} />
-                        <a href="https://www.linkedin.com/in/roger-romaniczen/" target="_blank">Linkedin</a>
-                    </div>
-                    <div className='link'>
+                        <span>
+                            Linkedin
+                        </span>
+                    </a>
+                    <a className='link' href="https://github.com/Roger2405" target="_blank">
                         <GithubLogo size={40} />
-                        <a href="https://github.com/Roger2405" target="_blank">GitHub</a>
-                    </div>
+                        <span>
+                            GitHub
+                        </span>
+                    </a>
                 </div>
             </div>
             <div className='text'>

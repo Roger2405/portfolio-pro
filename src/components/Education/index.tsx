@@ -1,5 +1,5 @@
 import SectionHeader from "../commons/SectionHeader";
-import coursesJson from "../../assets/data/courses.json";
+import coursesJson from "../../data/courses.json";
 import './styles.scss';
 import { CourseProps } from "../../@types/course";
 import LinkButton from "../commons/LinkButton";
@@ -32,7 +32,7 @@ export default function Education() {
                                     <span className="container__item--duration">carga horária: {course.workload} horas</span>
                                     {/* <a className="container__item--certificate" href={course.certificateUrl}>Ver credencial</a> */}
                                     <div className="container__item--certificate">
-                                        <LinkButton href={course.certificateUrl} title="Ver credencial" contoured small />
+                                        <LinkButton href={course.certificateUrl} title="Ver certificado" contoured small />
 
                                     </div>
                                 </div>

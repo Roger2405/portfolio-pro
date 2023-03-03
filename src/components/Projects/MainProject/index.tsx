@@ -20,7 +20,7 @@ export default function MainProject() {
         subtitle: "Controle de Vendas e Estoque",
         skills: ["JavaScript", "TypeScript", "React Native", "MySQL", "NodeJS"],
         sreenshotSrc: AjudameScreenshot,
-        inDevelopment: true,
+        inDevelopment: false,
     }
 
     return (
@@ -47,7 +47,7 @@ export default function MainProject() {
             <img id='ajudame-screenshot' src={mainProject.sreenshotSrc} />
             <div className='description'>
                 <p>Aplicativo Mobile de controle de vendas e
-                    estoque para MEI (Micro Empreendedor
+                    estoque para MEI (Microempreendedor
                     Individual).
                 </p>
                 <div className='description__details'>
@@ -55,10 +55,10 @@ export default function MainProject() {
 
                     </p>
                     <p className=''>
-                        Com a interface simples e intuitiva, o projeto busca uma inclusão digital para Micro Empreendedores Individuais que ainda não possuem um controle formal e eficaz do seu negócio, ou, até mesmo, empreendedores informais que queiram alavancar o seu negócio e, posteriormente, formalizá-lo.
+                        Com a interface simples e intuitiva, o projeto busca uma inclusão digital para Microempreendedores Individuais que ainda não possuem um controle formal e eficaz do seu negócio, ou, até mesmo, empreendedores informais que queiram alavancar o seu negócio e, posteriormente, formalizá-lo.
                     </p>
                     <p className=''>
-                        No aplicativo será possível obter o histórico de vendas, visualizar os produtos mais vendidos, além de consultar gráficos, facilitando a interpretação dos dados e, consequentemente, proporcionando um maior controle sobre seu negócio.
+                        No aplicativo é possível obter o histórico de vendas, visualizar os produtos mais vendidos, além de consultar gráficos, facilitando a interpretação dos dados e, consequentemente, proporcionando um maior controle sobre seu negócio.
                     </p>
                 </div>
 

@@ -1,14 +1,12 @@
-import { SkillsNameProps } from "../../@types/skill";
-import RoomHomepageScreenshot from '../screenshots/room-homepage.png';
-import RestCountriesScreenshot from '../screenshots/countries-rest-api.png';
-import SpaceHomepageScreenshot from '../screenshots/space-page.png';
-import ChatAppCSSScreenshot from '../screenshots/chat-app-css.png';
-import MultiStepFormScreenshot from '../screenshots/multi-step-form.png';
-import TicTacToeScreenshot from '../screenshots/tic-tac-toe.png';
+import RoomHomepageScreenshot from '../assets/screenshots/room-homepage.png';
+import RestCountriesScreenshot from '../assets/screenshots/countries-rest-api.png';
+import SpaceHomepageScreenshot from '../assets/screenshots/space-page.png';
+import ChatAppCSSScreenshot from '../assets/screenshots/chat-app-css.png';
+import MultiStepFormScreenshot from '../assets/screenshots/multi-step-form.png';
+import TicTacToeScreenshot from '../assets/screenshots/tic-tac-toe.png';
+import { ProjectProps } from '../@types/project';
 
 
-
-import { ProjectProps } from "../../@types/project";
 
 
 

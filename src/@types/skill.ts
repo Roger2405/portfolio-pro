@@ -1,6 +1,5 @@
 export interface SkillProps {
     startsAt?: string,
-    color: string,
     name: SkillsNameProps;
     level: string
 

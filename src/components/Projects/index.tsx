@@ -1,7 +1,7 @@
 import SectionHeader from "../commons/SectionHeader";
 import MainProject from "./MainProject";
 
-import { projects } from "../../assets/data/projects";
+import { projects } from "../../data/projects";
 import Project from "./Project";
 import { useState } from "react";
 import { ProjectProps } from "../../@types/project";
