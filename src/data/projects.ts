@@ -43,8 +43,8 @@ export const projects: ProjectProps[] = [
         skills: [
             "JavaScript", "TypeScript", "HTML5", "ReactJS", "CSS3"
         ],
-        previewUrl: 'https://rest-countries-roger2405.vercel.app/',
-        repoUrl: 'https://github.com/Roger2405/rest-countries',
+        previewUrl: 'https://space-tourism-website-vert.vercel.app/',
+        repoUrl: 'https://github.com/Roger2405/space-tourism-website',
         imageSrc: SpaceHomepageScreenshot
     },
     {
